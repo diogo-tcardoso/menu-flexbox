@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    body {
+        max-width: 80%;
+        margin: auto;
+    }
+    header {
+        display: block;
+        padding: 20px;
+    }
+
+    .title {
+        justify-content: center;
+    }
+
+    span {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    nav {
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        top: 30px;
+    }
+
+    .menu ul li, .menu .button {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        font-weight: 700;
+    }
+
+    ul li {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    flex-direction: column;  
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    padding: 45px;
+    justify-content: space-between;
+}
+
+img {
+    width: 46px;
+    height: 42px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 20px;
+}
+nav {
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+}
+.menu ul li,
+.menu .button {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu ul li {
+    padding: 10px 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.menu .button {
+    border-radius: 10px;
+    background-color: #5BC241;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.menu ul li:hover {
+    background-color: #5BC241;
+    color: #ffffff;
+}
